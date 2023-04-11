@@ -1,0 +1,126 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    position: relative;
+    left: -40px;
+    width: 100%;
+}
+
+i {
+    color: #fff;
+    margin: 0 15px;
+}
+
+li {
+    list-style: none;
+    margin: 20px 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+a,
+li,
+button {
+    transition: 0.5s;
+}
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #618acd;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+h3.job-designation {
+    color: #618acd;
+    font-size: 24px;
+}
+
+h3.right-sub-heading {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+/*CONTAINER*/
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container .section_left {
+    width: 25%;
+    padding: 20px;
+    background: #004489;
+    color: #fff;
+    padding-top: 100px;
+    height: 1900px;
+}
+
+.container .section_left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.container .section_right {
+    padding: 30px;
+    width: 75%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a.links {
+    color: black;
+}
+
+a.links:hover {
+    color: #618acd;
+}
+
+a#side-links {
+    color: white;
+}
+
+@media (max-width:920px) {
+    .container .section_left {
+        width: 100%;
+        display: block;
+    }
+
+    .container .section_right {
+        width: 100%;
+        position: static;
+        display: block;
+    }
+}
